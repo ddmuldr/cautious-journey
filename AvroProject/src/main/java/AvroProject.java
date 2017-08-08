@@ -11,8 +11,8 @@ public class AvroProject {
                 .setFavoriteNumber(10)
                 .build();
 
-        System.out.println("User built with Avro");
-        System.out.println("--------------------");
+        System.out.println("Built with Avro");
+        System.out.println("---------------");
         System.out.println(String.format("%s's favorite color is %s and favorite number is %s",
                 derek.getName(),
                 derek.getFavoriteColor(),
